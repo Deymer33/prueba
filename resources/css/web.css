@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 15%; 
+    height: 80%; /* 100% de la altura de la viewport */
+    background-color: #ddd;
+    padding: 20px;
+    overflow-y: auto; /* Agrega scroll si el contenido del nav es más alto que la pantalla */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  main {
+    margin-left: 20%; 
+    padding: 20px;
+        min-height: calc(100vh - 120px); /* Ajustar el valor según la altura del header y footer */
+        padding: 20px;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para los gráficos (ejemplo usando Chart.js) */
+  .chart-container {
+    width: 80%;
+    height: 100px;
+  }
