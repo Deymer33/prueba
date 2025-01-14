@@ -9,8 +9,9 @@
 <body>
 
 <header>
-<h1>title</h1>
-</header>
+        <h1>Título</h1>
+        <input type="text" placeholder="Buscar">
+    </header>
 <div>
     <nav>
         <div>
