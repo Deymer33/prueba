@@ -166,7 +166,8 @@ flowchart TD
     J --> G[Exportación de Datos]
     J --> H[Configuración del Sistema]
     F --> I[Base de Datos Temporal]
-    I -->|Depuración| C```
+    I -->|Depuración| C
+    ```
 
 
 
