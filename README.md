@@ -132,7 +132,7 @@ Gestionar filtros predeterminados.
 
 Modificar configuraciones generales.
 
-
+```mermaid
 flowchart TD
     A[Inicio de Sesión] --> B[Panel de Control]
     B --> C[Registro de Ataques]
