@@ -155,7 +155,6 @@ Opciones para:
     -Modificar configuraciones generales.
 
 
-
 ```mermaid
 flowchart TD
     A[Inicio de Sesión] --> B[Panel de Control]
