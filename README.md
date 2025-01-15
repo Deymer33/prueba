@@ -155,20 +155,6 @@ Opciones para:
     -Modificar configuraciones generales.
 
 
-```mermaid
-flowchart TD
-    A[Inicio de Sesión] --> B[Panel de Control]
-    A --> J[Usuario]
-    J --> C[Registro de Ataques]
-    J --> D[Consulta de Estadísticas]
-    J --> E[Búsqueda Avanzada]
-    B --> F[Web Scraping Automático]
-    J --> G[Exportación de Datos]
-    J --> H[Configuración del Sistema]
-    F --> I[Base de Datos Temporal]
-    I -->|Depuración| C
-    ```
-
 
 
 Casos de Uso
@@ -287,3 +273,15 @@ Flujo principal:
 - Página inaccesible Registra un error y reintenta en el siguiente ciclo.
 - Datos incompletos:Marca los datos para revisión manual.
 
+```mermaid
+flowchart TD
+    A[Inicio de Sesión] --> B[Panel de Control]
+    A --> J[Usuario]
+    J --> C[Registro de Ataques]
+    J --> D[Consulta de Estadísticas]
+    J --> E[Búsqueda Avanzada]
+    B --> F[Web Scraping Automático]
+    J --> G[Exportación de Datos]
+    J --> H[Configuración del Sistema]
+    F --> I[Base de Datos Temporal]
+    I -->|Depuración| C
